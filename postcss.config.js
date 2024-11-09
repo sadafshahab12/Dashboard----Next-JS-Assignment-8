@@ -1,11 +1,10 @@
-// next.config.js
-module.exports = {
-  reactStrictMode: true,
-  // Ensure this part is correct if you're manually defining PostCSS settings
-  postcss: {
-    plugins: [
-      require('tailwindcss'),
-      require('autoprefixer'),
-    ],
-  },
+// postcss.config.js (ES Module)
+import tailwindcss from 'tailwindcss';
+import autoprefixer from 'autoprefixer';
+
+export default {
+  plugins: [
+    "tailwindcss",
+    "autoprefixer",
+  ],
 };
