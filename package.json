@@ -14,7 +14,7 @@
     "autoprefixer": "10.4.19",
     "bcrypt": "^5.1.1",
     "clsx": "^2.1.1",
-    "next": "^15.0.0",
+    "next": "canary", 
     "next-auth": "4.x",
     "postcss": "8.4.38",
     "postcss-preset-env": "^10.0.9",
