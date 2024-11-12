@@ -1,3 +1,4 @@
+import { trace } from 'next/dist/trace';
 import NextAuth from 'next-auth';
 import { authConfig } from './auth.config';
  
